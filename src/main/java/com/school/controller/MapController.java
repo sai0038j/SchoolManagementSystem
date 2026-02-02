@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MapController {
     @GetMapping("/studentlogin")
-    public String studentLogin()
+    public String studentlogin()
     {
         return "studentlogin";
     }
